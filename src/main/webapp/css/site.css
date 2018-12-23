@@ -1,0 +1,100 @@
+.jumbotron {
+	color: white;
+}
+
+.next-page {
+	text-decoration: none;
+	color: white;
+}
+
+#view-public {
+	float:right;
+}
+
+.card-deck {
+	display: flex;
+	flex-flow: row wrap;
+	margin-right: -15px;
+    margin-left: -15px;
+}
+
+.card {
+	width: 175px;
+	text-align: center;
+	margin: 5px;
+}
+
+.btn {
+	margin: 2px;
+}
+
+.card-title {
+	text-align: center;
+}
+
+
+.card-homepage {
+	width: 20%;
+}
+
+.card-img-top {
+	width: 100%;
+	padding: 5px;
+}
+
+.card-img-bottom {
+	width: 100%;
+	padding: 5px;
+}
+
+.navbar {
+	border-radius: 0px;
+}
+
+.page-footer {
+	background-color: black;
+    color: white;
+    position: static;
+    bottom: 0px;
+    padding: 18px;
+    margin-top: 15px;
+}
+.grow {
+	transform: scale(1.04);
+	color: #7d8289;
+}
+
+.cover-image {
+	width: 50%;
+}
+#zooming{
+    -webkit-transition:.9s all;
+}
+
+.transitions {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  /*   -moz-box-shadow:0 0 8px 0 black;
+	-webkit-box-shadow:0 0 8px 0 black;
+	//box-shadow:2px 0 8px 0 blue; */
+}
+
+.tnFormat {
+	background: none repeat scroll 0 0 #272525;
+	border-color: #EEEEEE;
+	border-radius: 0;
+	padding: 5px;
+	text-color: white;
+	heigt: auto;
+}
+
+.labelForm {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.login-bttn {
+	background-color: #272525 !important;
+}
